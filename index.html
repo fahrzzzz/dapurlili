@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noodles</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="foodd.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    
+
+    <!-- Header -->
+    <header class="header">
+
+        <a href="" class="logo"><img src="image/lgo.png" alt=""></a><span>DapurLili</span>
+
+        <nav class="navbar">
+            <a href="#home">Beranda</a>
+            <a href="#services">Layanan</a>
+            <a href="#products">Produk</a>
+            <a href="#categories">Kategori</a>
+            <a href="#review">Review</a>
+            <a href="#blogs">Blog</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search"  id="search-box" placeholder="Search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/bg1.jpeg" alt="">
+                <div class="content">
+                    <h3>Noodle</h3>
+                    <span class="price">Rp10.000</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/bg1.jpeg" alt="">
+                <div class="content">
+                    <h3>Noodle</h3>
+                    <span class="price">Rp10.000</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/bg1.jpeg" alt="">
+                <div class="content">
+                    <h3>Noodle</h3>
+                    <span class="price">Rp10.000</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            
+            <div class="total">Total : Rp30.000</div>
+            <a href="" class="btn">Checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>Login Now</h3>
+            <input type="email" placeholder="Your Email" class="box">
+            <input type="password" placeholder="Your Password" class="box">
+            <p>Forget Your Password <a href="">Click here</a></p>
+            <p>Don't Have an Account <a href="">Create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+    </header>
+
+
+    <!-- Home -->
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Sensasi rasa mie yang tak terlupakan untuk anda.</h3>
+            <br>
+            <p>Beraneka macam mie yang menggabungkan cita rasa lokal dan sangat menarik untuk dicoba.</p>
+            <a href="#products" class="btn">Beli Sekarang</a>
+        </div>
+
+    </section>
+
+
+    <!-- Features -->
+    <section class="features" id="features">
+        <h1 class="heading"><span>Layanan</span> Kami</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/ft1.jpeg" alt="">
+                <h3>Delicious and Savory</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="" class="btn">Read more</a>
+            </div>
+
+            <div class="box">
+                <img src="image/ft2.jpg" alt="">
+                <h3>Free Delivery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="" class="btn">Read more</a>
+            </div>
+
+            <div class="box">
+                <img src="image/ft3.png" alt="">
+                <h3>Easy Payments</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="" class="btn">Read more</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Products-->
+     <section class="products" id="products">
+        <h1 class="heading"> <span>Produk</span> Kami</h1>
+
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="image/mie2.jpg" alt="">
+                    <h3>Mie Rempah Pedas</h3>
+                    <div class="price"> Rp13.000</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="" class="btn">Add To Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/mie3.jpg" alt="">
+                    <h3>Mie Chili Oil</h3>
+                    <div class="price"> Rp13.000</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="" class="btn">Add To Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/mie4.jpg" alt="">
+                    <h3>Indomie Bangladesh Kuah</h3>
+                    <div class="price"> Rp13.000</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="" class="btn">Add To Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/mie5.jpg" alt="">
+                    <h3>Indomie Bangladesh Nyemek</h3>
+                    <div class="price"> Rp13.000</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="" class="btn">Add To Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/mie6.jpg" alt="">
+                    <h3>Mie Samyang Kuah</h3>
+                    <div class="price"> Rp13.000</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="" class="btn">Add To Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/mie1.jpg" alt="">
+                    <h3>Mie Aromatik Bawang</h3>
+                    <div class="price"> Rp13.000</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="" class="btn">Add To Cart</a>
+                </div>
+            </div>
+        </div>
+<!-- 
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="image/mie1.jpg" alt="">
+                    <h3>Gacoan Mie</h3>
+                    <div class="price"> Rp15.000</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="" class="btn">Add To Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/bg1.jpeg" alt="">
+                    <h3>Gacoan Mie</h3>
+                    <div class="price"> Rp15.000</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="" class="btn">Add To Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/bg1.jpeg" alt="">
+                    <h3>Gacoan Mie</h3>
+                    <div class="price"> Rp15.000</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="" class="btn">Add To Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/bg1.jpeg" alt="">
+                    <h3>Gacoan Mie</h3>
+                    <div class="price"> Rp15.000</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="" class="btn">Add To Cart</a>
+                </div> -->
+            </div>
+        </div>
+     </section>
+
+
+     <!-- Categories -->
+      <section class="categories" id="categories">
+        <h1 class="heading">Product <span>Categories</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/ft1.jpeg" alt="">
+                <h3>Mie Padeh</h3>
+                <p>Buy 1,free 1</p>
+                <a href="" class="btn">Shop Now</a>
+            </div>
+
+            <div class="box">
+                <img src="image/ft1.jpeg" alt="">
+                <h3>Mie Padeh</h3>
+                <p>Buy 1,free 1</p>
+                <a href="" class="btn">Shop Now</a>
+            </div>
+
+            <div class="box">
+                <img src="image/ft1.jpeg" alt="">
+                <h3>Mie Padeh</h3>
+                <p>Buy 1,free 1</p>
+                <a href="" class="btn">Shop Now</a>
+            </div>
+
+            <div class="box">
+                <img src="image/ft1.jpeg" alt="">
+                <h3>Mie Padeh</h3>
+                <p>Buy 1,free 1</p>
+                <a href="" class="btn">Shop Now</a>
+            </div>
+        </div>
+      </section>
+
+
+      <!-- Review -->
+       <section class="review" id="review">
+        <h1 class="heading"> Customer's <span>Review</span></h1>
+
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="image/user.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, in.</p>
+                    <h3>Johnson</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/user.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, in.</p>
+                    <h3>Johnson</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/user.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, in.</p>
+                    <h3>Johnson</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/user.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, in.</p>
+                    <h3>Johnson</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+       </section>
+
+
+       <!-- Blogs -->
+        <section class="blogs" id="blogs">
+            <h1 class="heading">Our <span>Blogs</span></h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="image/user.jpeg" alt="">
+                    <div class="content">
+                        <div class="icons">
+                            <a href=""><i class="fas fa-user"></i>By User</a>
+                            <a href=""><i class="fas fa-calendar"></i>1st Oct,2024</a>
+                        </div>
+                        <h3>Fresh Noodles</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, qui aperiam!</p>
+                        <a href="" class="btn">Read More
+                        </a>
+                    </div>
+                </div>
+
+                
+                <div class="box">
+                    <img src="image/user.jpeg" alt="">
+                    <div class="content">
+                        <div class="icons">
+                            <a href=""><i class="fas fa-user"></i>By User</a>
+                            <a href=""><i class="fas fa-calendar"></i>1st Oct,2024</a>
+                        </div>
+                        <h3>Fresh Noodles</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, qui aperiam!</p>
+                        <a href="" class="btn">Read More
+                        </a>
+                    </div>
+                </div>
+
+                
+                <div class="box">
+                    <img src="image/user.jpeg" alt="">
+                    <div class="content">
+                        <div class="icons">
+                            <a href=""><i class="fas fa-user"></i>By User</a>
+                            <a href=""><i class="fas fa-calendar"></i>1st Oct,2024</a>
+                        </div>
+                        <h3>Fresh Noodles</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, qui aperiam!</p>
+                        <a href="" class="btn">Read More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+         <section class="footer">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>Gacoan <i class="fas fa-shopping-basket"></i></h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="share">
+                        <a href="" class="fab fa-facebook"></a>
+                        <a href="" class="fab fa-twitter"></a>
+                        <a href="" class="fab fa-instagram"></a>
+                        <a href="" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h3>Contact Info</h3>
+                    <a href="" class="links"><i class="fas fa-phone"></i> 0815-3228-3243</a>
+                    <a href="" class="links"><i class="fas fa-envelope"></i>wijayafahri667@gmail.com</a>
+                    <a href="" class="links"><i class="fas fa-map-marker-alt"></i>Bengkulu, Indonesia</a>
+                </div>
+                
+                <div class="box">
+                    <h3>Quick Links</h3>
+                    <a href="" class="links"><i class="fas fa-arrow-right"></i>Beranda</a>
+                    <a href="" class="links"><i class="fas fa-arrow-right"></i>Layanan</a>
+                    <a href="" class="links"><i class="fas fa-arrow-right"></i>Produk</a>
+                    <a href="" class="links"><i class="fas fa-arrow-right"></i>Kategori</a>
+                    <a href="" class="links"><i class="fas fa-arrow-right"></i>Review</a>
+                    <a href="" class="links"><i class="fas fa-arrow-right"></i>Blog</a>
+                </div>
+
+                <div class="box">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe for latest updates</p>
+                    <input type="email" placeholder="Your Email" class="email">
+                    <input type="submit" value="Subscribe" class="btn">
+                    <!-- <img src="image/payment.jpeg" class="payment-img" alt=""> -->
+                </div>
+            </div>
+
+            <div class="credit"> Created by <span>grading group</span> | Copyright 2024</div>
+         </section>
+
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="fooddd.js"></script>
+</body>
+</html>
+
